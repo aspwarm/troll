@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spinning Troll Face</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background-color: #808080; /* Gray background */
+        }
+
+        #trollFace {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            animation: spin 3s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: translate(-50%, -50%) rotate(0deg); }
+            100% { transform: translate(-50%, -50%) rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <img id="trollFace" src="https://th.bing.com/th/id/R.a38d84b23ca539ced7b19724582a37c1?rik=jsGZm5HMJE5NIg&pid=ImgRaw&r=0" alt="Troll Face">
+</body>
+</html>
