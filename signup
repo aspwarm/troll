@@ -69,14 +69,14 @@
       data-language-code="en_us" 
       data-language-name="English" /><meta name="device-meta"
       data-device-type="computer"
-      data-is-in-app="false"
+      data-is-in-app="true"
       data-is-desktop="true"
-      data-is-phone="false"
-      data-is-tablet="false"
-      data-is-console="false"
-      data-is-android-app="false"
-      data-is-ios-app="false"
-      data-is-uwp-app="false"
+      data-is-phone="true"
+      data-is-tablet="true"
+      data-is-console="true"
+      data-is-android-app="true"
+      data-is-ios-app="true"
+      data-is-uwp-app="true"
       data-is-xbox-app="false"
       data-is-amazon-app="false"
       data-is-win32-app="false"
@@ -88,7 +88,7 @@
       data-app-type="unknown"
 />
 <meta name="environment-meta"
-      data-is-testing-site="false" />
+      data-is-testing-site="true" />
 
 <meta id="roblox-display-names" data-enabled="true"></meta>
 
